@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">Fast SMS</string>
-    <string name="sms_sender">SMS Sender</string>
-    <string name="prolan_apps">Prolan Apps</string>
     <string name="enter_phone_number">Enter Phone Number</string>
     <string name="send">Send</string>
     <string name="enter_message">Enter message</string>
+
+    <!-- Text Messages -->
+    <string name="need_a_number">I need a number =)</string>
+    <string name="need_a_message">Nothing to say ? I need a message =)</string>
+
+    <!--Error Messages-->
+    <string name="err_number">Missing phone number</string>
+    <string name="err_messageSMS">Empty message is not allowed</string>
+
 </resources>

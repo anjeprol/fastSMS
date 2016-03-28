@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS Rápidos</string>
+    <string name="enter_phone_number">Número Telefónico</string>
+    <string name="send">Enviar</string>
+    <string name="enter_message">Escribir Mensaje</string>
+
+    <!--Text Messages-->
+    <string name="need_a_number">Necesito un número =)</string>
+    <string name="need_a_message">¿Nada que decir? Necesito un mensaje =)</string>
+
+    <!--Error Messages-->
+    <string name="err_number">Número telefónico es requerido</string>
+    <string name="err_messageSMS">Mensajes Vacios no son permitidos</string>
+
+</resources>
