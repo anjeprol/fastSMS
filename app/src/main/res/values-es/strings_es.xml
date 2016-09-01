@@ -4,10 +4,15 @@
     <string name="enter_phone_number">Número Telefónico</string>
     <string name="send">Enviar</string>
     <string name="enter_message">Mensaje</string>
+    <string name="speech_prompt">Di algo&#8230;</string>
+    <string name="speech_not_supported">¡Lo siento! Tu dispositivo no soporta comandos de voz</string>
+    <string name="tap_on_mic">Toca el microfono para hablar</string>
 
     <!--Error Messages-->
     <string name="err_number">Número telefónico es requerido</string>
     <string name="err_messageSMS">Mensajes Vacios no son permitidos</string>
+    <string name="message_sent">SMS Enviado</string>
+    <string name="error_message_sent">SMS Falló, por favor intente luego</string>
 
     <!-- AdMob ad unit IDs -->
     <string name="banner_home_footer">ca-app-pub-9708372782088183/7891163358</string>

@@ -18,7 +18,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.Switch;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private final static String FILE_NAME = "myLstPhone";
     private Button      mSendBtn;
     private EditText    mPhoneNoEditText;
-    private EditText    mMessagaEditText;
+    private EditText    mMessageEditText;
     private ImageButton mMicImageButton;
     private AdView mAdView;
     private TextInputLayout inputNumber, inputMessage;
@@ -56,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //Loading views
         mSendBtn = (Button) findViewById(R.id.btnSendSMS);
         mPhoneNoEditText    = (EditText) findViewById(R.id.editText);
-        mMessagaEditText    = (EditText) findViewById(R.id.editText2);
+        mMessageEditText = (EditText) findViewById(R.id.editText2);
         inputMessage        = (TextInputLayout) findViewById(R.id.input_layout_textMessage);
         inputNumber         = (TextInputLayout) findViewById(R.id.input_layout_textPhone);
         mMicImageButton     = (ImageButton) findViewById(R.id.btnSpeak);
@@ -79,10 +78,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onStop() {
         //Saving the last phone number used
-        SharedPreferences prefs = getSharedPreferences("myLstPhone", MODE_PRIVATE);
+        SharedPreferences prefs = getSharedPreferences(FILE_NAME, MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         //Data is the key to retrieve the information
-        editor.putString("data", mPhoneNoEditText.getText().toString());
+        editor.putString(DATA, mPhoneNoEditText.getText().toString());
         editor.commit();
         Log.d("DataSaved->" + mPhoneNoEditText.getText().toString(), "");
         super.onStop();
@@ -93,26 +92,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String errLabelMsg = getString(R.string.err_messageSMS);
         Log.d("Send msg", "");
         String phonNum = mPhoneNoEditText.getText().toString();
-        String txtSMS = mMessagaEditText.getText().toString();
+        String txtSMS = mMessageEditText.getText().toString();
         if (phonNum.trim().isEmpty()) {
             inputNumber.setError(errLabelNum);
             inputMessage.setErrorEnabled(false);
             mPhoneNoEditText.requestFocus();
         } else if (txtSMS.trim().isEmpty()) {
             inputMessage.setError(errLabelMsg);
-            mMessagaEditText.requestFocus();
+            mMessageEditText.requestFocus();
             inputNumber.setErrorEnabled(false);
         } else {
             try {
                 SmsManager smsManager = SmsManager.getDefault();
                 smsManager.sendTextMessage(phonNum, null, txtSMS, null, null);
-                Toast.makeText(getApplicationContext(), "SMS Sent", Toast.LENGTH_LONG).show();
-                mMessagaEditText.setText("");
+                Toast.makeText(getApplicationContext(), R.string.message_sent, Toast.LENGTH_LONG).show();
+                mMessageEditText.setText("");
                 inputMessage.setErrorEnabled(false);
                 inputNumber.setErrorEnabled(false);
                 Log.d("Finished sending SMS...", "");
             } catch (android.content.ActivityNotFoundException ex) {
-                Toast.makeText(MainActivity.this, "SMS failed, please try again later", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.error_message_sent, Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -153,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(resultCode == RESULT_OK && null != data)
                 {
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                    mMessagaEditText.setText(result.get(0));
+                    mMessageEditText.setText(result.get(0));
                 }
                 break;
         }

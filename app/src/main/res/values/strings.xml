@@ -10,8 +10,11 @@
     <!--Error Messages-->
     <string name="err_number">Missing phone number</string>
     <string name="err_messageSMS">Empty message is not allowed</string>
+    <string name="message_sent">SMS Sent</string>
+    <string name="error_message_sent">SMS failed, please try again later</string>
 
     <!-- AdMob ad unit IDs -->
     <string name="banner_home_footer">ca-app-pub-9708372782088183/7891163358</string>
+
 
 </resources>
