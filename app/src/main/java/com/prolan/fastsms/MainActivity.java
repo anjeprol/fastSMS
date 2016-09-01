@@ -16,6 +16,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class MainActivity extends AppCompatActivity {
     final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
     private Button sendBtn;
@@ -28,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        // Load an ad into the AdMob banner view.
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
 
         //Loading views
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
@@ -77,21 +87,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected void sendSMS(){
-        String labelNumber = getString(R.string.need_a_number);
-        String labelMessage = getString(R.string.need_a_message);
         String errLabelNum = getString(R.string.err_number);
         String errLabelMsg = getString(R.string.err_messageSMS);
         Log.d("Send msg","");
         String phonNum = txtphoneNo.getText().toString();
         String txtSMS = txtMessage.getText().toString();
         if(phonNum.trim().isEmpty() ){
-            Toast.makeText(getApplicationContext(),labelNumber, Toast.LENGTH_LONG).show();
             inputNumber.setError(errLabelNum);
             inputMessage.setErrorEnabled(false);
             txtphoneNo.requestFocus();
         }
         else if (txtSMS.trim().isEmpty()){
-            Toast.makeText(getApplicationContext(),labelMessage, Toast.LENGTH_LONG).show();
             inputMessage.setError(errLabelMsg);
             txtMessage.requestFocus();
             inputNumber.setErrorEnabled(false);

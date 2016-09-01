@@ -1,15 +1,14 @@
 <resources>
     <string name="app_name">Fast SMS</string>
-    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_phone_number">Phone Number</string>
     <string name="send">Send</string>
-    <string name="enter_message">Enter message</string>
-
-    <!-- Text Messages -->
-    <string name="need_a_number">I need a number =)</string>
-    <string name="need_a_message">Nothing to say ? I need a message =)</string>
+    <string name="enter_message">Message</string>
 
     <!--Error Messages-->
     <string name="err_number">Missing phone number</string>
     <string name="err_messageSMS">Empty message is not allowed</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-9708372782088183/7891163358</string>
 
 </resources>

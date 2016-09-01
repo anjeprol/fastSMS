@@ -2,67 +2,81 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_d2bdd13847bc6f085a35d506f87b93d69c25f1d9\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.0.1_6e3cc661da1c2354c53994a4667f3fcd71717c28\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_2d6c126a7ceeac984838536135df012b98a758c8\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_1b686a1bda706fa4e1b9ff0df34762881abf8dd9\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_f797f7a5eb9b9c223192f554dd646c35c25d1516\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_28ea2ccb13a6d3660f5ee2b4f5a94970c53cb4ba\classes.dex" />
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_945da8534df5aa5ff49c94dd39299a234bd51df3/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="ccd2ee57f843bc3cfc53f0d8de9223dfc4653ec7">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_09c188bbe7ef9d6c7528e008d261e60f98d1961a\classes.dex" />
+        sha1="db976eeeb5a8c34c0d4ab23ce8e7557ecf20bcc0">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c7dac12837363d3853700d507185c048474e1ba4/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="a33df69dbd45fd0dbca814b6f94b578ec4b7bc49">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c55174005f2f611405fc250e34706c37c5dd7eeb\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Prolan\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jar="/Users/antoniopradoo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Users\Prolan\AndroidStudioProjects\projects\fastSMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_8cf78ee3c219004ee4196e02b6d8b914b199e6e8\classes.dex" />
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_6ca8c2fcf614e45d24e7379e6e04797c29c1f10f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.0.1_f8b92d4f3b4e7f2bc7cbfbe733caec6187b554bb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_cd860da043fc41da814162a4c56c2286c167789d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="980c36e9f8108e4222b90c97a0c820e70fa923f3">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2f2f6ee055864a466e8d0593fd32d97a612fe101/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_0d23d4d5a2268dad48af9913ad6430a2d0c318b9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_e9372e2a05145fd286a1d4b4d9d23c34757ca50a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_dac819b6b02caa37772fa762d7a8d5dd6a2b5f96/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_b4613244c1196cd7056b3778b50f42a0804882dc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_b2173ebd84749cfb8a7d26d85d01c744eba182fb/classes.dex" />
     </item>
 
 </items>
