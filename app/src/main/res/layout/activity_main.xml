@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
 
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -16,70 +17,64 @@
 
 
         <ImageButton
+            android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageButton"
-            android:src="@drawable/envelope2"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-             />
+            android:src="@drawable/envelope2" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/input_layout_textPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/imageButton"
-            >
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/editText"
-                    android:hint="@string/enter_phone_number"
-                    android:phoneNumber="true"
-                    android:layout_centerHorizontal="true"
-                    />
+            android:layout_below="@+id/imageButton">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/enter_phone_number"
+                android:phoneNumber="true" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/input_layout_textMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/input_layout_textPhone"
             android:layout_alignLeft="@+id/input_layout_textPhone"
             android:layout_alignStart="@+id/input_layout_textPhone"
-            >
+            android:layout_below="@id/input_layout_textPhone">
+
             <EditText
+                android:id="@+id/editText2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText2"
                 android:hint="@string/enter_message"
-                android:isScrollContainer="true"
-                android:minHeight="150dp"
                 android:inputType="textMultiLine"
-                />
+                android:isScrollContainer="true"
+                android:minHeight="150dp" />
         </android.support.design.widget.TextInputLayout>
 
         <Button
+            android:id="@+id/btnSendSMS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/send"
-            android:id="@+id/btnSendSMS"
             android:layout_below="@+id/input_layout_textMessage"
             android:layout_centerHorizontal="true"
-            android:textColor="#ffffff"
             android:background="@drawable/mybutton"
-            >
-        </Button>
+            android:text="@string/send"
+            android:textColor="#ffffff"></Button>
 
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            ads:adSize="BANNER"
-            ads:adUnitId="@string/banner_home_footer"
             android:layout_alignTop="@+id/input_layout_textMessage"
-            android:layout_centerHorizontal="true">
-        </com.google.android.gms.ads.AdView>
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
 
     </RelativeLayout>
 
