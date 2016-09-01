@@ -8,8 +8,8 @@ android {
         applicationId "com.prolan.fastsms"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 6
-        versionName "Fast SMS 1.5"
+        versionCode 7
+        versionName "Fast SMS 1.6"
     }
     buildTypes {
         release {

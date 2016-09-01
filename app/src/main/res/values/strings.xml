@@ -3,6 +3,9 @@
     <string name="enter_phone_number">Phone Number</string>
     <string name="send">Send</string>
     <string name="enter_message">Message</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
 
     <!--Error Messages-->
     <string name="err_number">Missing phone number</string>
