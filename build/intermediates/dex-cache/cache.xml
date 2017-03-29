@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/.android/build-cache/cb0f1f60aa1718115ada82254b98623f7bf9d509/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cdd38394ebc8d51e1fee1d8d1e4134f3fc602f8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5dfe553737afffc804606e48fa0cd4b4748041f">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c7dac12837363d3853700d507185c048474e1ba4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/.android/build-cache/ad1e92b09921e2396d3307c74c94f543297e4eb0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_550588c906bed12764c85abdabc20bf7aefc3c74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_6ca8c2fcf614e45d24e7379e6e04797c29c1f10f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/.android/build-cache/b8c8ebb3bd6458220f9d212f492c30a1dbf4b6ca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b17e4a1778e24e1665456d254a0c0f37817482ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/.android/build-cache/a21220ac1ece053fff63c29d16a32162eca9169b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe555c1457fa98f3a82e20c719b4538e2f534860/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/.android/build-cache/f3e69992b40b0de551d5efab4fe8a4d662369746/output/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_719b9449e19f3787e6896a8eea77f583061f72a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/.android/build-cache/e7b49d3bb7e1aa706f18247b0a24281fa853aad4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b28d3680068fb14b17acabd6e3dae2d19cfe8227/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2f2f6ee055864a466e8d0593fd32d97a612fe101/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/antoniopradoo/.android/build-cache/f3e69992b40b0de551d5efab4fe8a4d662369746/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/antoniopradoo/Documents/ProjectsAndroid/fastSMS/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3dbb0ad340f310cd72fe133ba2d0daac6ba5c15e/classes.dex" />
+    </item>
+
+</items>
